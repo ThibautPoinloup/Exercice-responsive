@@ -5,23 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice Responsive</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="" class="brand">Mon petit design</a>
-        <ul>
+    <nav class="nav">
+        <a href="" class="brand"><img src="./img/Rectangle 4.png" alt="logo du site"><h1>Mon petit design</h1></a>
+        <ul class="nav__items">
             <li><a href="">Accueil</a></li>
             <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <header>
-        <div class="titre">
-            <a href="">Mon petit graphisme</a>
-            <h1>Agence de graphisme</h1>
+    <header class="header">
+        <div class="header__items">
+            <a href=""><img src="./img/Rectangle 4.png" alt=""> Mon petit graphisme</a>
+            <h2>Agence de graphisme</h2>
         </div>
     </header>
     <main>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis maiores deserunt, necessitatibus quisquam quam ex esse corporis atque hic quidem dolores sequi, reiciendis impedit est enim. Libero eum ipsam iste?</p>
+        <p class="main__text">Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.</p>
+        <div class="container">
+            <article class="container__items">
+                <img src="./img/graphic-design 1.png" alt="">
+                <h3>Graphisme</h3>
+                <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
+            </article>
+            <article class="container__items">
+                <img src="./img/picto-business 1.png" alt="">
+                <h3>stratégie</h3>
+                <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
+            </article>
+            <article class="container__items">
+                <img src="./img/drawing 1.png" alt="">
+                <h3>illustration</h3>
+                <p>Nos graphistes vous proposerons des illustrations 100 % originales.</p>
+            </article>
+        </div>
+        <div class="testimony">
+            <p>“Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler complétement la carte de mon restaurant.”</p>
+            <p class="testimony__name">Amandine restauratrice</p>
+        </div>
     </main>
+    <footer class="footer">
+        <p class="footer__text">Mon petit graphisme - Agence de graphisme basée à Paris</p>
+        <div class="social__icons">
+            <img src="./img/twiter.png" alt="twiter-icon">
+            <img src="./img/facebook.png" alt="facebook-icon">
+            <img src="./img/instagram.png" alt="instagram-icon">
+        </div>
+        <div class="more">
+            <article class="more_items">
+                <h3>Accès rapide</h3>
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </article>
+            <article class="more_items">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="">Donnés personnelle</a></li>
+                    <li><a href="">Mentions légales</a></li>
+                    <li><a href="">cookies</a></li>
+                </ul>
+            </article>
+            <article class="more_items">
+                <h3>Coordonnés</h3>
+                <p>10 Quai de la charente</p>
+                <p>75019 Paris</p>
+                <p>01 23 45 67 89</p>
+            </article>
+        </div>
+    </footer>
 </body>
 </html>
