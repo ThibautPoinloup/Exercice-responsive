@@ -144,6 +144,7 @@ main .container .container__items p {
   color: #fff;
 }
 @media screen and (max-width: 420px) {
+
   .more {
     justify-content: flex-start;
     align-items: flex-start;
@@ -152,5 +153,19 @@ main .container .container__items p {
   .more article {
     width: 360px;
     margin: 30px auto;
+  }
+}
+
+@media screen and (max-width:840px){
+  main .container {
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    margin: 60px;
+  }
+  main .container .container__items {
+    width: 100%;
   }
 }
