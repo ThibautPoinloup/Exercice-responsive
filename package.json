@@ -1,0 +1,20 @@
+{
+  "name": "exercice-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass scss/main.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibautPoinloup/Exercice-responsive.git"
+  },
+  "author": "Thibaut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThibautPoinloup/Exercice-responsive/issues"
+  },
+  "homepage": "https://github.com/ThibautPoinloup/Exercice-responsive#readme"
+}

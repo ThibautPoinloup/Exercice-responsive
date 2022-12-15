@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    &__brand{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        background-color: #5b359d;
+        h1{
+        color: #fff;
+        font-size: 18px;
+        padding: 5px;
+        }
+
+    }
+    &__items{
+        display: flex;
+        align-items: center;
+        li{
+            list-style-type: none;
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 479px){
+    .nav{
+        &__brand{
+            h1{
+            font-size: 20px;
+            }
+        }
+        &__items{
+            li{
+                padding: 20px;
+            }
+        }
+    }
+    
+}

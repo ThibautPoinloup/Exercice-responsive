@@ -1,0 +1,94 @@
+.main{
+    &__text{
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    &__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &__items{
+            width: 100%;
+            padding: 30px;
+            img{
+                margin: 0 auto;
+                display: block;
+            }
+            h3{
+                text-align: center;
+                margin: 20px;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+    &__testimony{
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .testimony__name{
+        text-align: center;
+        margin: 10px;
+        color: rgb(167, 168, 168);
+        font-size: 13px;
+        font-weight: 300;
+
+    }
+}
+
+
+@media screen and (min-width: 767px) {
+    .main{
+        &__container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+            &__items{
+                width: 350px;
+                padding: 30px;
+                img{
+                    margin: 0 auto;
+                    display: block;
+                }
+                h3{
+                    text-align: center;
+                    margin: 20px;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+        &__testimony{
+            text-align: center;
+            padding: 30px;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .testimony__name{
+            text-align: center;
+            margin: 10px;
+            color: rgb(167, 168, 168);
+            font-size: 13px;
+            font-weight: 300;
+    
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .main{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
